@@ -41,7 +41,7 @@ git reset --mixed HEAD~1
 ```
 
 ## Undo from main branch safely
-
+```
 echo "main branch mistake" > undo.txt
 git add undo.txt
 git commit -m "main branch mistake"
@@ -50,7 +50,7 @@ git push
 git revert HEAD   #Creates a new commit that undoes the last one
 git status
 git push
-
+```
 
 
 
