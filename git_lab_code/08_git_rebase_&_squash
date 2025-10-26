@@ -2,7 +2,7 @@
 - Git rebase moves your commits on top of another branch’s latest changes, keeping the project history clean and linear.
 - Git squash works with rebase to combine multiple small commits into one, so you would have one clear commit representing your whole feature.
 
-```
+
 git checkout -b feature-rebase
 echo "line 1" > changes.txt
 git add changes.txt
@@ -16,10 +16,9 @@ echo "line 3" >> changes.txt
 git add changes.txt
 git commit -m "feat: add third line"
 
-git log --oneline    #Commit history will show 3 commits
-git rebase -i HEAD~3   #change last two commits from pick to squash to change this to one commit
-git push
-```
+git log --oneline    
+git rebase -i HEAD~3   
+
 
 
 
