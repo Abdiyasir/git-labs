@@ -1,9 +1,9 @@
-# Branching & Merging
+## Branching & Merging
 - Branching allows you to work in different features without changing the main code.
 - Once the changes are ready Merging allows you to bring the changes over to the main branch.
 - Merge conflicts can occur when the same file is changed differently in both the new feature branch and main branch.
 
-## Making a change to the Main branch & adding a feature branch
+# Making a change to the Main branch & adding a feature branch
 ```
 echo "Hello from main" > app.txt
 git add app.txt
