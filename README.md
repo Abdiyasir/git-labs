@@ -3,7 +3,7 @@
 - It’s not just for storing code — Git is the foundation of collaboration in software development. It lets teams build, test, ship, and recover code efficiently — even if something breaks.
 
 ## Git Labs — Practical Hands-On Exercises
-- This repository includes a Git Labs folder containing practical exercises based on real-world developer and DevOps workflows.
+- This repository includes a Git Lab code folder containing practical exercises based on real-world developer and DevOps workflows.
 
 ### What They Cover:
 - Initializing and setting up repositories
