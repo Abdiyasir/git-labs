@@ -1,5 +1,3 @@
-<img width="840" height="726" alt="image" src="https://github.com/user-attachments/assets/f2021b83-1688-448a-962b-ac355d427605" /># Git for Devops
-
 ## What Is Git?
 - Git is a version control system — a tool that tracks changes in your code and helps multiple people work on the same project safely.
 - It’s not just for storing code — Git is the foundation of collaboration in software development. It lets teams build, test, ship, and recover code efficiently — even if something breaks.
