@@ -1,7 +1,6 @@
 # Git Rebase & Squash
 
-- Git rebase moves your commits on top of another branch’s latest changes, keeping the project history clean and linear.
-- Git squash works with rebase to combine multiple small commits into one, so you would have one clear commit representing your whole feature.
+- Git rebase & git squash work together to combine multiple small commits into one, so you would have one clear commit representing your whole feature.
 
 ```
 git checkout -b feature-rebase
