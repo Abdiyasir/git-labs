@@ -21,7 +21,7 @@ git commit -m "Conflicting update from main"
 git merge feature-1   #This creates a conflict as there's different changes on the same file
 
 cat app.txt
-echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt #This overrides the merge and keeps all changes
+echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt #This overrides the merge conflict and keeps all changes
 
 git add app.txt
 git commit -m "resolve merge conflict between main and feature-1 branch"
